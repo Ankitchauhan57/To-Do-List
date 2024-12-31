@@ -37,7 +37,9 @@
     margin-left: 20px;
 }
 
-
+.head :nth-child(3){
+    margin-left: 245px;
+}
 .row{
     display: flex;
     align-items: center;
