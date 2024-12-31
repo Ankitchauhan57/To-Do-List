@@ -57,3 +57,15 @@ function showtask() {
 }
 showtask();
 
+function changebg() {
+    const element = document.getElementById('cont');
+    const currentColor = window.getComputedStyle(element).backgroundColor;
+    
+    if (currentColor === 'rgb(108, 92, 231)') { // Equivalent of #6c5ce7 in RGB
+        element.style.backgroundColor = 'rgb(152, 255, 152)';
+    } else if (currentColor === 'rgb(152, 255, 152)') { // Equivalent of red in RGB
+        element.style.backgroundColor = '#6c5ce7';
+    }
+
+}
+
